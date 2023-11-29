@@ -35,11 +35,11 @@ function createCards() {
 
   const arrayCardsNames = cardNames
     .sort(() => Math.random() - 0.5)
-    .filter((value, index) => index < 12);
+    .filter((value, index) => index < 6);
 
   const sortedCards = [...arrayCardsNames, ...arrayCardsNames]
     .sort(() => Math.random() - 0.5)
-    .filter((value, index) => index < 24);
+    .filter((value, index) => index < 12);
 
   gridCards.innerHTML = "";
   sortedCards.forEach((card) => {
