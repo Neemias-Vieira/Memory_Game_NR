@@ -24,7 +24,7 @@ aside button {
 
 .gridCards {
   display: grid;
-  width: 100%;
+  width: 90%;
   height: 90%;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
