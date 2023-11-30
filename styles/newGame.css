@@ -27,7 +27,15 @@
   font-size: clamp(2rem, 6vw, 2.4rem);
   white-space: nowrap;
   text-align: center;
-  color: #e8d141;
+  color: #fff;
+  margin-top: 0.8rem;
+  text-shadow: 2px 2px 2px black;
+}
+.newGameHeader h4 {
+  font-size: clamp(.8rem, 3vw, 1.6rem);
+  white-space: nowrap;
+  text-align: center;
+  color: rgb(234, 36, 36);
   margin-top: 0.8rem;
   text-shadow: 2px 2px 2px black;
 }
@@ -47,7 +55,7 @@
 
 .newGameButton {
   font-size: 1.6rem;
-  background: linear-gradient(200deg, #056cf2, #2793f2);
+  background: linear-gradient(200deg, rgb(167, 5, 5), rgb(234, 36, 36));
   border-radius: 8px;
   padding: 1.6rem;
   width: 100%;

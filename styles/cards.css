@@ -60,7 +60,7 @@ aside button {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border: solid 1.5px orange;
+  border: solid 2px rgb(237, 9, 9);
   border-radius: 0.6rem;
   transition: filter 300ms, opacity 300ms;
 }

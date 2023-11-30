@@ -28,9 +28,6 @@ function createCards() {
     "card_14",
     "card_15",
     "card_16",
-    "card_17",
-    "card_18",
-    "card_19",
   ];
 
   const arrayCardsNames = cardNames
@@ -63,7 +60,7 @@ function cleanNameCards() {
 
 function checkGameWin() {
   const disabledCards = document.querySelectorAll(".disabledCard");
-  if (disabledCards.length === 24) {
+  if (disabledCards.length === 12) {
     clearInterval(finishTimerInterval);
 
     const userData = {
@@ -81,7 +78,8 @@ function checkGameWin() {
     }
 
     alert(
-      `Parabéns ${storagePlayerName}, você venceu com tempo de ${timer.innerHTML}!`
+      `Parabéns ${storagePlayerName}, você venceu com tempo de ${timer.innerHTML}!
+TE AMOO LINDAA, xeero gstza 😏`
     );
   }
 }
