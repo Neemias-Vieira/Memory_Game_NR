@@ -18,7 +18,6 @@ function handleSubmitNewGame(event) {
   window.location.href = "pages/cards.html";
 }
 
-
 inputName.addEventListener("input", validateInput);
 newGameForm.addEventListener("submit", handleSubmitNewGame);
 buttonRank.addEventListener("click", navigateToRank);
