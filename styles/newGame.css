@@ -35,7 +35,7 @@
   font-size: clamp(.8rem, 3vw, 1.6rem);
   white-space: nowrap;
   text-align: center;
-  color: rgb(234, 36, 36);
+  color: #ff0000;
   margin-top: 0.8rem;
   text-shadow: 2px 2px 2px black;
 }
